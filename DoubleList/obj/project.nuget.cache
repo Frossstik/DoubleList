@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WDDTC/TUODQh7QSHj2fWD74AMQv7uUUNbw1I7882SsLF6GhXpgYagE6WKVioeCflJu63I7xRmRgP0O6LsQCwtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Win10Pro\\source\\repos\\DoubleList\\DoubleList\\DoubleList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Win10Pro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

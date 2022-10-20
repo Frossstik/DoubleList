@@ -1,0 +1,17 @@
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.exe
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.deps.json
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.runtimeconfig.json
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.runtimeconfig.dev.json
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.dll
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\bin\Debug\netcoreapp3.1\DoubleList.pdb
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.csproj.AssemblyReference.cache
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.Form1.resources
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.csproj.GenerateResource.cache
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.AssemblyInfoInputs.cache
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.AssemblyInfo.cs
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.csproj.CoreCompileInputs.cache
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.dll
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.pdb
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.genruntimeconfig.cache
+C:\Users\Win10Pro\source\repos\DoubleList\DoubleList\obj\Debug\netcoreapp3.1\DoubleList.Form2.resources
