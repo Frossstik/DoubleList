@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Garbage
+namespace DoubleList
 {
     class Stack<T> : IEnumerable<T>
     {
@@ -60,6 +60,12 @@ namespace Garbage
             items = tempItems;
         }
 
+        public void Clear()
+        {
+            items = null;
+            count = 0;
+        }
+
         IEnumerator IEnumerable.GetEnumerator()
         {
             for (int i = 0; i < items.Length; i++)
@@ -73,6 +79,19 @@ namespace Garbage
             for (int i = 0; i < items.Length; i++)
             {
                 yield return items[i];
+            }
+        }
+
+        public void Sort(/*Comparison<T> comparison*/)
+        {/*
+            if (comparison == null)
+            {
+                throw new Exception("comparison == null");
+            }*/
+
+            if (count > 1)
+            {
+                Array.Sort(items);
             }
         }
     }

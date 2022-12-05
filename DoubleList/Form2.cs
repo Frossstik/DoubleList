@@ -34,7 +34,7 @@ namespace DoubleList
         private void button3_Click(object sender, EventArgs e)
         {
             Minions temp = stack1.Pop();
-            textBox3.Text += temp.id + ") " + temp.name + " " + temp.age;
+            textBox1.Text += temp.id + ") " + temp.name + " " + temp.age;
             MessageBox.Show("Успех!", "Сообщение");
         }
 
@@ -63,6 +63,12 @@ namespace DoubleList
             form1.ShowDialog();
             Close();
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            stack1.Sort();
+            MessageBox.Show("Успех!", "Сообщение");
         }
     }
 }

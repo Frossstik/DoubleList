@@ -13,8 +13,6 @@ namespace DoublyConnectedDeck
         Node<T> tail;
         int count;
 
-        List<int> list1 = new List<int>();
-
         public T this[int i]
         {
             get
@@ -90,12 +88,7 @@ namespace DoublyConnectedDeck
             return false;
         }
 
-        public void Sort(Comparison<T> comparison)
-        {
 
-        }
-
-        
         IEnumerator IEnumerable.GetEnumerator()
         {
             return ((IEnumerable)this).GetEnumerator();

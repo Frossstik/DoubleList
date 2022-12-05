@@ -42,7 +42,6 @@ namespace DoubleList
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -69,7 +68,7 @@ namespace DoubleList
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(269, 185);
+            this.button3.Location = new System.Drawing.Point(269, 156);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 23);
             this.button3.TabIndex = 3;
@@ -163,19 +162,9 @@ namespace DoubleList
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(269, 156);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 23);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "Сортировать";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(251, 239);
+            this.textBox4.Location = new System.Drawing.Point(251, 200);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(118, 23);
             this.textBox4.TabIndex = 15;
@@ -183,7 +172,7 @@ namespace DoubleList
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(251, 221);
+            this.label4.Location = new System.Drawing.Point(251, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(118, 15);
             this.label4.TabIndex = 16;
@@ -196,7 +185,6 @@ namespace DoubleList
             this.ClientSize = new System.Drawing.Size(374, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -231,7 +219,6 @@ namespace DoubleList
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
     }
