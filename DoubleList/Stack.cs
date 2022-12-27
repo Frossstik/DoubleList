@@ -28,8 +28,6 @@ namespace DoubleList
             get { return count; }
         }
 
-        public T Current => throw new NotImplementedException();
-
         public void Push(T item)
         {
             // увеличиваем стек
@@ -48,7 +46,7 @@ namespace DoubleList
 
             if (count > 0 && count < items.Length - 1)
                 Resize(items.Length - 1);
-
+            
             return item;
         }
 
@@ -58,6 +56,7 @@ namespace DoubleList
             for (int i = 0; i < count; i++)
                 tempItems[i] = items[i];
             items = tempItems;
+            
         }
 
         public void Clear()
@@ -68,15 +67,20 @@ namespace DoubleList
 
         IEnumerator IEnumerable.GetEnumerator()
         {
+            return ((IEnumerable)this).GetEnumerator();
+        }
+
+        /*IEnumerator IEnumerable.GetEnumerator()
+        {
             for (int i = 0; i < items.Length; i++)
             {
                 yield return items[i];
             }
-        }
+        }*/
 
         public IEnumerator<T> GetEnumerator()
         {
-            for (int i = 0; i < items.Length; i++)
+            for (int i = 0; i < Count; i++)
             {
                 yield return items[i];
             }

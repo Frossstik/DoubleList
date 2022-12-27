@@ -58,6 +58,7 @@ namespace DoubleList
 
         private void button3_Click(object sender, EventArgs e)
         {
+            textBox4.Clear();
             Minions temp =  doublyLinkeedList.Remove();
             textBox4.Text += temp.id + ") " + temp.name + " " + temp.age;
             MessageBox.Show("Успех!", "Сообщение");
@@ -70,7 +71,6 @@ namespace DoubleList
             {
                 richTextBox1.Text += m.id + ") " + m.name + " " + m.age + Environment.NewLine;
             }
-            richTextBox1.Update();
         }
 
         private void button5_Click(object sender, EventArgs e)

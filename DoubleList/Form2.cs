@@ -33,6 +33,7 @@ namespace DoubleList
 
         private void button3_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
             Minions temp = stack1.Pop();
             textBox1.Text += temp.id + ") " + temp.name + " " + temp.age;
             MessageBox.Show("Успех!", "Сообщение");
